@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
         webView.getSettings().setBlockNetworkImage(false);//解决图片不显示
-        webView.loadUrl("http://47.99.127.192:9092"); //http://192.168.1.2:8080 http://47.99.127.192:9092
+        webView.loadUrl("http://192.168.1.2:8080");
         webView.setWebChromeClient(new WebChromeClient() {
             /**
              * 8(Android 2.2) <= API <= 10(Android 2.3)回调此方法
